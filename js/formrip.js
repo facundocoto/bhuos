@@ -33,7 +33,7 @@ function enviarFormulario() {
     data: data,
   })
     .done(function () {
-      location.href = "gracias.html";
+      location.href = "gracias";
       // $("input").attr("disabled", true).val("");
       // $("textarea").attr("disabled", true).val("");
       // $("#alert").addClass("mt-5").removeClass("d-none").addClass("show");
